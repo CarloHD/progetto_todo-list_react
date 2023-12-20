@@ -1,0 +1,27 @@
+.modalBackground {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	backdrop-filter: grayscale(100%) brightness(60%);
+	z-index: 100;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+.modal div {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+}
+
+.modal h2 {
+	color: var(--text-color);
+	margin: 0;
+	user-select: none;
+}

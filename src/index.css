@@ -1,0 +1,19 @@
+:root {
+	--text-color: #94af9f;
+	--index-bg-color: #aec2b6;
+	--light-color: #dbe4c6;
+	--dark-color: #bbd6b8;
+	--lighter-color: #f2ffdd;
+	--darker-color: #8ea38c;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	color: var(--text-color);
+}
+
+body {
+	margin: 0;
+	background-color: var(--index-bg-color);
+}
